@@ -352,6 +352,17 @@ section{
 //about
 .about{
     margin-top: -6%;
+    @media screen and (max-width: 768px) {
+        .main-title{
+            h2{
+                font-size: 2rem !important;
+                span{
+                    font-size: 2rem !important;
+                }
+            }
+            
+        }
+    }
 }
 .about-container {
     width: 90%; /* Aumenta a largura do container */
@@ -582,9 +593,9 @@ section{
     @media screen and (max-width: 768px){
         .main-title{
             h2{
-                font-size: 4rem;
+                font-size: 2rem !important;
                 span{
-                    font-size: 3rem;
+                    font-size: 2rem !important;
                 }
             }
         }
@@ -781,6 +792,17 @@ section{
 }
 
 //contact session
+.contact-container{
+    .main-title{
+        h2{
+            font-size: 2rem !important;
+            span{
+                font-size: 2rem !important;
+            }
+        }
+    }
+}
+
 
 .contact-content-container {
     width: 80%;
@@ -791,14 +813,7 @@ section{
     
     
     @media screen and (max-width: 768px) {
-        .main-title{
-            h2{
-                font-size: 3rem !important;
-                span{
-                    font-size: 2rem !important;
-                }
-            }
-        }
+        
         
         width: 80vw !important;
         margin-left: -18% !important; 

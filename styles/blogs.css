@@ -37,6 +37,16 @@ main #goback {
   background-color: #FFFFFF;
   padding: 1rem;
 }
+@media screen and (max-width: 768px) {
+  main #goback {
+    width: 50px;
+    height: 50px;
+    font-size: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 main #goback:hover {
   transition: all 0.6s ease-in-out;
   background-color: #2a2e35;
@@ -76,8 +86,25 @@ main .img video {
 }
 main .vids {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  main .vids {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .vids .v {
+    margin: 0.08rem !important;
+  }
+  main .vids .v .vid {
+    width: 80vw !important;
+    border-radius: 1rem;
+  }
 }
 main .vids .v {
+  border-radius: 1rem;
   margin: 0.2rem;
 }
 main .vids .v .vid {

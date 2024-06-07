@@ -307,6 +307,14 @@ section {
 .about {
   margin-top: -6%;
 }
+@media screen and (max-width: 768px) {
+  .about .main-title h2 {
+    font-size: 2rem !important;
+  }
+  .about .main-title h2 span {
+    font-size: 2rem !important;
+  }
+}
 
 .about-container {
   width: 90%; /* Aumenta a largura do container */
@@ -518,10 +526,10 @@ section {
 
 @media screen and (max-width: 768px) {
   .portfolio .main-title h2 {
-    font-size: 4rem;
+    font-size: 2rem !important;
   }
   .portfolio .main-title h2 span {
-    font-size: 3rem;
+    font-size: 2rem !important;
   }
 }
 
@@ -697,6 +705,13 @@ section {
   padding-bottom: 1rem;
 }
 
+.contact-container .main-title h2 {
+  font-size: 2rem !important;
+}
+.contact-container .main-title h2 span {
+  font-size: 2rem !important;
+}
+
 .contact-content-container {
   width: 80%;
   margin-left: 10rem;
@@ -709,12 +724,6 @@ section {
     margin-left: -18% !important;
     align-items: center !important;
     justify-content: center !important;
-  }
-  .contact-content-container .main-title h2 {
-    font-size: 3rem !important;
-  }
-  .contact-content-container .main-title h2 span {
-    font-size: 2rem !important;
   }
   .contact-content-container .left-contact {
     flex: 4 !important;
